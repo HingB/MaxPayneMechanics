@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7dd7bf230115fc49b465b190530aeb7, type: 3}
+  m_Name: MovementSettings
+  m_EditorClassIdentifier: 
+  _maxMovementSpeed: 10
+  _movementAcceleration: 150
+  _movementDeceleration: 50
+  _jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.308371
+      outSlope: 0.308371
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.113861755
+    - serializedVersion: 3
+      time: 0.46771967
+      value: 0.059816226
+      inSlope: 0.66883683
+      outSlope: 0.66883683
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06442325
+      outWeight: 0.037031166
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.3348851
+      outSlope: -0.3348851
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08471614
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.30565217
+      outSlope: 0.30565217
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2771081
+    - serializedVersion: 3
+      time: 0.24373
+      value: 0.42032108
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.845945
+      value: 0.4488406
+      inSlope: 0.16996485
+      outSlope: 0.16996485
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9149161
+      value: 0.9980589
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _jumpDuration: 2
+  _jumpDistance: 10
+  _jumpHeight: 15
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  _groundCheckRadius: 0.1
